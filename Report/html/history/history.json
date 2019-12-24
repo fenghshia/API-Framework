@@ -1,0 +1,42 @@
+{
+  "05b0325b3a7b5d8ea839c2c457530b68" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "95a72b18a8d19ce9",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.2.125', port=666): Max retries exceeded with url: //api/date/v1/openRoom (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002336735D518>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))",
+      "time" : {
+        "start" : 1576135960981,
+        "stop" : 1576135981995,
+        "duration" : 21014
+      }
+    } ]
+  },
+  "b7a8d7bc5210be372e410d4968cab236" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f85c909d38e9c62",
+      "status" : "broken",
+      "statusDetails" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.2.125', port=666): Max retries exceeded with url: //api/date/v1/openRoom (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023367627B38>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))",
+      "time" : {
+        "start" : 1576135982152,
+        "stop" : 1576136003162,
+        "duration" : 21010
+      }
+    } ]
+  }
+}

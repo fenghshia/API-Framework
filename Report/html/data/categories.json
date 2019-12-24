@@ -1,0 +1,43 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.2.125', port=666): Max retries exceeded with url: //api/date/v1/openRoom (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002336735D518>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))",
+      "children" : [ {
+        "name" : "test_01[data0]",
+        "uid" : "95a72b18a8d19ce9",
+        "parentUid" : "0a3a7ab84f5010ece20641b8095cfc3a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576135960981,
+          "stop" : 1576135981995,
+          "duration" : 21014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'url': '/api/date/v1/openRoom', 'data': {'type': 'di', 'mode': 'OPEN', 'title': '来玩'}, 'sp': True, 'result': {'token': 'b0969ffc143f498bbcb4cf224c68e562', 'anchor': {'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}, 'chatUser': [{'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}]}}" ]
+      } ],
+      "uid" : "0a3a7ab84f5010ece20641b8095cfc3a"
+    }, {
+      "name" : "requests.exceptions.ConnectionError: HTTPConnectionPool(host='192.168.2.125', port=666): Max retries exceeded with url: //api/date/v1/openRoom (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023367627B38>: Failed to establish a new connection: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。',))",
+      "children" : [ {
+        "name" : "test_01[data1]",
+        "uid" : "1f85c909d38e9c62",
+        "parentUid" : "855e5febb84c5f7b4af32a530619b112",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576135982152,
+          "stop" : 1576136003162,
+          "duration" : 21010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'url': '/api/date/v1/openRoom', 'data': {'type': 'VIDEO', 'mode': 'OPEN', 'title': '来玩'}, 'sp': True, 'result': {'token': 'b0969ffc143f498bbcb4cf224c68e562', 'anchor': {'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}, 'chatUser': [{'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}]}}" ]
+      } ],
+      "uid" : "855e5febb84c5f7b4af32a530619b112"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

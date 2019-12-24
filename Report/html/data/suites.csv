@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Dec 12 15:32:40 CST 2019","Thu Dec 12 15:33:01 CST 2019","21014","Cases","test_API","","","","test_01[data0]","此接口用于月老和红娘开启房间"
+"broken","Thu Dec 12 15:33:02 CST 2019","Thu Dec 12 15:33:23 CST 2019","21010","Cases","test_API","","","","test_01[data1]","此接口用于月老和红娘开启房间"

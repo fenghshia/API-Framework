@@ -1,0 +1,30 @@
+{
+  "url": "/api/date/v1/openRoom",
+  "data": {
+    "type": "VIDEO",
+    "mode": "OPEN",
+    "title": "来玩"
+  },
+  "sp": true,
+  "result": {
+    "token": "b0969ffc143f498bbcb4cf224c68e562",
+    "anchor": {
+      "id": "vip001",
+      "nickname": "风諾",
+      "gender": "MALE",
+      "age": 18,
+      "avatar": "http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80",
+      "area": "成都"
+    },
+    "chatUser": [
+      {
+      "id": "vip001",
+      "nickname": "风諾",
+      "gender": "MALE",
+      "age": 18,
+      "avatar": "http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80",
+      "area": "成都"
+      }
+    ]
+  }
+}

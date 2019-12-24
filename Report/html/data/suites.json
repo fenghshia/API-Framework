@@ -1,0 +1,39 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Cases",
+    "children" : [ {
+      "name" : "test_API",
+      "children" : [ {
+        "name" : "test_01[data0]",
+        "uid" : "95a72b18a8d19ce9",
+        "parentUid" : "7307dbe766c151291a93c304fbe9a831",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576135960981,
+          "stop" : 1576135981995,
+          "duration" : 21014
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'url': '/api/date/v1/openRoom', 'data': {'type': 'di', 'mode': 'OPEN', 'title': '来玩'}, 'sp': True, 'result': {'token': 'b0969ffc143f498bbcb4cf224c68e562', 'anchor': {'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}, 'chatUser': [{'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}]}}" ]
+      }, {
+        "name" : "test_01[data1]",
+        "uid" : "1f85c909d38e9c62",
+        "parentUid" : "7307dbe766c151291a93c304fbe9a831",
+        "status" : "broken",
+        "time" : {
+          "start" : 1576135982152,
+          "stop" : 1576136003162,
+          "duration" : 21010
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'url': '/api/date/v1/openRoom', 'data': {'type': 'VIDEO', 'mode': 'OPEN', 'title': '来玩'}, 'sp': True, 'result': {'token': 'b0969ffc143f498bbcb4cf224c68e562', 'anchor': {'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}, 'chatUser': [{'id': 'vip001', 'nickname': '风諾', 'gender': 'MALE', 'age': 18, 'avatar': 'http://image.1qiyue.cc/user/default/3.jpg?x-oss-process=style/webp80', 'area': '成都'}]}}" ]
+      } ],
+      "uid" : "7307dbe766c151291a93c304fbe9a831"
+    } ],
+    "uid" : "0540001dfc6c1c39dae94a419ed99c12"
+  } ]
+}
