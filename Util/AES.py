@@ -9,7 +9,7 @@ class AES_Generater():
 
     def __init__(self):
         # 密匙
-        self.Key = 'hpL6ib5zTw9uMNIE'
+        self.Key = 'UCyHhh7T4yWVWvoi'
         # 加密模式
         Model = AES.MODE_ECB
         # 生成加密对象
